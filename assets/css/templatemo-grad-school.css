@@ -345,7 +345,13 @@ a.menu-link { display: none; }
   color: #fff;
   letter-spacing: 1px;
 }
-
+.main-banner .caption img {
+  max-width: 80%; /* Adjust the size as needed */
+  height: auto;
+  background-color: transparent; /* Remove the white background */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
 .main-banner .caption h2 em {
   font-style: normal;
   color: #f5a425;
@@ -374,6 +380,7 @@ a.menu-link { display: none; }
   }
 
 }
+
 
 
 /* Features */
