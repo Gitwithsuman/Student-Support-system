@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Document Verification</title>
+    <link rel="stylesheet" href="assets/css/document.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Upload Your Documents</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="upload-box" id="dropArea">
+                <input type="file" id="fileInput" name="document" accept=".pdf, .jpg, .png" required>
+                <p>Drag & Drop or Click to Upload</p>
+            </div>
+            <button type="submit">Verify Document</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
